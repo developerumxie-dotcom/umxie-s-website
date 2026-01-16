@@ -1,3 +1,9 @@
+body{
+    background-color: lightgray;
+}
+
+
+
 nav{
 list-style: none;
 background-color: rgb(94, 94, 94);
@@ -43,7 +49,38 @@ color: white;
     align-content: center;
 }
 .main-1 img{
-    width: 100%;
+    /* width: 50%; */
+    padding-top: 15px;
     
     
+}
+.main-2{
+    display: flex;
+    
+}
+.txt-1{
+ /* width: 50%; */
+ 
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 75px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1f1e1e;
+    
+    
+   
+    border-radius: 8px;
+    
+   
+
+}
+
+.txtgrp-1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.atag-1{
+    color: white;
 }
